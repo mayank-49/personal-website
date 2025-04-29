@@ -54,7 +54,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-90 text-white shadow-lg backdrop-blur-sm ">
+    <header className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-90 text-white shadow-lg backdrop-blur-sm border-b">
       <div className="flex justify-between w-full mx-auto items-center px-6 py-4 md:px-10 md:py-4">
         <div className="flex items-center space-x-2">
           <a href="#home" className="group relative">
