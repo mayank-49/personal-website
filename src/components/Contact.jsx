@@ -9,20 +9,19 @@ const Contact = () => {
     >
       {/* Animated Background Elements */}
       <div className="absolute top-10 left-10 w-36 h-36 bg-blue-500 opacity-20 blur-3xl rounded-full animate-pulse pointer-events-none"></div>
-<div className="absolute top-20 right-5 w-24 h-24 bg-blue-500 opacity-10 blur-2xl rounded-full animate-bounce-slow pointer-events-none"></div>
-<div className="absolute bottom-20 left-20 w-32 h-32 bg-blue-500 opacity-15 blur-3xl rounded-full animate-spin-slow pointer-events-none"></div>
-<div className="absolute bottom-10 right-10 w-28 h-28 bg-blue-500 opacity-10 blur-3xl rounded-full animate-pulse pointer-events-none"></div>
+      <div className="absolute top-20 right-5 w-24 h-24 bg-blue-500 opacity-10 blur-2xl rounded-full animate-bounce-slow pointer-events-none"></div>
+      <div className="absolute bottom-20 left-20 w-32 h-32 bg-blue-500 opacity-15 blur-3xl rounded-full animate-spin-slow pointer-events-none"></div>
+      <div className="absolute bottom-10 right-10 w-28 h-28 bg-blue-500 opacity-10 blur-3xl rounded-full animate-pulse pointer-events-none"></div>
 
-      
       {/* Header */}
       <h4 className="text-blue-500 text-lg tracking-widest mb-4 uppercase animate-fadeIn">
         Stay Connected
       </h4>
-      <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 drop-shadow-lg animate-fadeIn">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 drop-shadow-lg animate-fadeIn">
         Reach Out
       </h1>
-      <p className="text-center max-w-2xl mb-10 px-4 text-gray-400 text-lg leading-relaxed animate-fadeIn delay-150">
-      Whether you're passionate about crafting seamless user experiences, building intelligent web applications, or exploring the intersection of AI and frontend development, I’m always open to connecting. Let’s collaborate to create impactful solutions and push the boundaries of innovation through clean code, smart design, and emerging technologies.
+      <p className="text-center max-w-2xl mb-10 px-4 text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed animate-fadeIn delay-150">
+        Whether you're passionate about crafting seamless user experiences, building intelligent web applications, or exploring the intersection of AI and frontend development, I’m always open to connecting. Let’s collaborate to create impactful solutions and push the boundaries of innovation through clean code, smart design, and emerging technologies.
       </p>
       <a
         href="mailto:mayank04official@gmail.com"

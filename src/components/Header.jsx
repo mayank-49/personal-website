@@ -59,7 +59,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <a href="#home" className="group relative">
             {/* Logo placeholder */}
-            <h1 className="text-4xl text-white-600 font-semibold">Mk</h1>
+            <h1 className="text-4xl text-white-600 font-semibold text-blue-500">Mk</h1>
           </a>
         </div>
 
