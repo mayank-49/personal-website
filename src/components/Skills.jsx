@@ -30,6 +30,10 @@ const Skills = () => {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
     {
+      name: "Redux",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    },
+    {
       name: "Next.js",
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
