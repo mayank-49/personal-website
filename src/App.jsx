@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Timeline from './components/Experience'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Home/>
       <AboutMe/>
       <Skills/>
+      <Timeline/>
       <Projects/>
       <Contact/>
     </>

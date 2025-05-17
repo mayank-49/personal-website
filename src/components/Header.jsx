@@ -67,6 +67,7 @@ const Header = () => {
           <nav className="flex space-x-12">
             <NavLink href="#aboutme">About me</NavLink>
             <NavLink href="#skills">Skills</NavLink>
+            <NavLink href="#experience">Experience</NavLink>
             <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </nav>
@@ -141,7 +142,7 @@ const Header = () => {
                 </svg>
               </button>
               <nav className="flex flex-col space-y-6 text-left w-full">
-                {['AboutMe', 'Skills', 'Projects', 'Contact'].map((item, index) => (
+                {['AboutMe', 'Skills','Experience', 'Projects', 'Contact'].map((item, index) => (
                   <a
                     key={item}
                     href={`#${item.toLowerCase()}`}
