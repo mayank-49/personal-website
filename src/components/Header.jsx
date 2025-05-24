@@ -7,10 +7,11 @@ const Header = () => {
     const link = document.createElement('a');
     
     // Set the link's href to your resume file path
-    link.href = '/resume.pdf';
-    
-    // Set the download attribute with desiblue filename
-    link.download = 'Mayank_Resume.pdf';
+    link.href = '/Mayank_Resume.pdf';
+
+    // Set the file name for download
+    link.download = 'Mayank_Resume.pdf'; 
+  
     
     // Append to document, click, and remove
     document.body.appendChild(link);
