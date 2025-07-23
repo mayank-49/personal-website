@@ -26,7 +26,7 @@ const AboutMe = () => {
             <span>•</span>
             <span>2022–2026</span>
             <span>•</span>
-            <span>SGPA: 8.6</span>
+            <span>SGPA: 8.8</span>
           </div>
         </motion.div>
 
