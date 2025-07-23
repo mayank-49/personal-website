@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Frontend Developer Intern",
     location: "Zynk.AI",
-    duration: "April 2025 - Present",
+    duration: "April 2025 - July 2025",
     description:
       "Contibuted to Untitled Venture Zynk.AI, a cutting-edge recruiting platform, where I built a responsive and modern landing page and managed the entire frontend architecture using Next.js and Tailwind CSS. Designed clean, intuitive UI components to present AI-driven candidate insights effectively.",
   },
