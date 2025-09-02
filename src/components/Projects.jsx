@@ -5,6 +5,7 @@ import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import p5 from "../assets/p5.png";
 import p4 from "../assets/p4.png";
+import p6 from "../assets/p7.png";
 
 const projectsData = [
   {
@@ -43,6 +44,16 @@ const projectsData = [
     image: p4,
     techStack: ["REACT.JS", "TAILWIND CSS", "REDUX"],
   },
+  {
+    id: "05",
+    title: "PICTURA-AI",
+    description:
+      "Developed a text-to-image generation platform enabling users to create AI-generated images from prompts. Implemented secure user authentication for personalized access and usage history. Integrated Razorpay payment gateway for managing subscriptions and transactions seamlessly. Designed a responsive UI with smooth navigation for an enhanced user experience.",
+    link: "https://pictura-ai-frontend.onrender.com/", 
+    image: p6, 
+    techStack: ["MONGODB", "EXPRESS.JS", "NODE.JS", "REACT", "TAILWIND CSS", "RAZORPAY", "CLIPDROP API"],
+}
+,
 ];
 
 const Projects = () => {
