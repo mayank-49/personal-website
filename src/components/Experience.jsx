@@ -4,6 +4,13 @@ import { section } from "framer-motion/client";
 
 const experiences = [
   {
+    role: "Full-Stack Developer Intern",
+    location: "WESEE",
+    duration: "September 2025 - Present",
+    description:
+      "As a Full Stack Developer at WESEE, I contribute to designing, developing, and maintaining responsive, user-centric web applications. My responsibilities include implementing dynamic frontend features, integrating RESTful APIs for seamless data exchange, and resolving backend issues to ensure robust functionality. I work closely with the development team to optimize performance, enhance user experience, and deliver high-quality, scalable solutions aligned with project goals..",
+  },
+  {
     role: "Frontend Developer Intern",
     location: "Zynk.AI",
     duration: "April 2025 - July 2025",
@@ -90,11 +97,7 @@ const Timeline = () => {
                     <div
                     className={`w-4/5 lg:w-1/2 bg-white rounded-lg shadow-lg p-6 relative opacity-0 ${
                         isVisible ? `animate-fadeInBox` : ""
-                    } ${
-                        index % 2 === 0
-                        ? "text-center lg:text-left ml-0 lg:ml-0"
-                        : "text-center lg:text-right mr-0 lg:mr-0"
-                    } hover:bg-gray-200 transform transition-all duration-300 ease-in-out group`}
+                    }  hover:bg-gray-200 transform transition-all duration-300 ease-in-out group`}
                     style={{
                         animationDelay: `${index === 0 ? "0.1s" : index * 0.1 + 0.1}s`, // Reduced delay values
                         marginTop: "20px",
