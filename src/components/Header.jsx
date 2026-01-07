@@ -75,7 +75,7 @@ const Header = () => {
           
           <button onClick={handleDownload} className="
             relative overflow-hidden px-6 py-2 
-            border-2 border-blue-600 rounded-md
+            border-2 border-blue-600 rounded-md cursor-pointer
             transition-all duration-300 
             hover:shadow-[0_0_15px_rgba(255,223,0,0.3)]
             group

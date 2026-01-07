@@ -3,9 +3,10 @@ import ProjectCard from "./ProjectCard";
 // import VariableWeightText from "./VariableWeightText";
 import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
-import p5 from "../assets/p5.png";
+import p3 from "../assets/p3.png";
 import p4 from "../assets/p4.png";
-import p6 from "../assets/p7.png";
+import p5 from "../assets/p5.png";
+import p6 from "../assets/p6.png";
 
 const projectsData = [
   {
@@ -32,7 +33,7 @@ const projectsData = [
     description:
       "VTube is a modern, responsive video streaming application built with React, Tailwind CSS, and Rapid API. It offers a seamless and user-friendly interface for exploring, searching, and watching video content in real time. Users can browse trending videos, view detailed video and channel information, and enjoy a smooth playback experience across all devices. The application is designed with a focus on performance and accessibility, ensuring that users can easily navigate and interact with the platform. VTube is perfect for anyone looking to",
     link: "https://youtube-clone-one-jade.vercel.app/",
-    image: p5,
+    image: p3,
     techStack: ["REACT.JS", "TAILWIND CSS", "RAPID API", "VITE"],
   },
   {
@@ -50,8 +51,18 @@ const projectsData = [
     description:
       "Developed a text-to-image generation platform enabling users to create AI-generated images from prompts. Implemented secure user authentication for personalized access and usage history. Integrated Razorpay payment gateway for managing subscriptions and transactions seamlessly. Designed a responsive UI with smooth navigation for an enhanced user experience.",
     link: "https://pictura-ai-frontend.onrender.com/", 
-    image: p6, 
+    image: p5, 
     techStack: ["MONGODB", "EXPRESS.JS", "NODE.JS", "REACT", "TAILWIND CSS", "RAZORPAY", "CLIPDROP API"],
+}
+,
+  {
+    id: "06",
+    title: "Taskify",
+    description:
+      "Developed a MERN stack–based task management application that performs full CRUD operations, allowing users to create, update, view, and delete tasks efficiently. Implemented secure login and logout functionality using authentication to ensure personalized user access. Integrated an analytics dashboard to visualize tasks across different categories, helping users track progress and manage workloads effectively. Designed a responsive and user-friendly interface for seamless task management across devices.",
+    link: "https://taskify-frontend-giuu.onrender.com/", 
+    image: p6, 
+    techStack: ["MONGODB", "EXPRESS.JS", "NODE.JS", "REACT", "TAILWIND CSS"],
 }
 ,
 ];
