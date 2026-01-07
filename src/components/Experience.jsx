@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Full-Stack Developer Intern",
     location: "WESEE",
-    duration: "September 2025 - Decenber 2025",
+    duration: "September 2025 - December 2025",
     description:
       "As a Full Stack Developer at WESEE, I contribute to designing, developing, and maintaining responsive, user-centric web applications. My responsibilities include implementing dynamic frontend features, integrating RESTful APIs for seamless data exchange, and resolving backend issues to ensure robust functionality. I work closely with the development team to optimize performance, enhance user experience, and deliver high-quality, scalable solutions aligned with project goals..",
   },
