@@ -4,6 +4,13 @@ import { section } from "framer-motion/client";
 
 const experiences = [
   {
+    role: "Frontend Developer Intern",
+    location: "Numis India",
+    duration: "January 2026 - June 2026",
+    description:
+      "As a Frontend Developer Intern at Numis India, I was responsible for designing and developing the company's frontend application, creating responsive and interactive user interfaces using React.js, Next.js, and Tailwind CSS. I implemented the user login and authentication system, integrated RESTful APIs for seamless data exchange, and developed reusable components to enhance maintainability. I worked closely with the team to improve performance, optimize user experience, and deliver high-quality, scalable web solutions.",
+  },
+  {
     role: "Full-Stack Developer Intern",
     location: "WESEE",
     duration: "September 2025 - December 2025",

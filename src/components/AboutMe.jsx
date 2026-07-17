@@ -1,5 +1,5 @@
 import React from "react";
-import {motion}  from "framer-motion";
+import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
@@ -53,29 +53,40 @@ const AboutMe = () => {
         >
           <p>
             Hi, I'm <strong className="text-blue-500">Mayank Kumar</strong>, a
-            passionate and creative Frontend Developer with a strong foundation
-            in modern web technologies. I specialize in building responsive and
-            engaging websites using <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React.js</strong>, and
-            <strong>Next.js</strong>.
+            passionate <strong>MERN Stack Developer</strong> with hands-on
+            experience in both frontend and backend development. I enjoy
+            building modern, scalable, and high-performance web applications
+            that combine intuitive user interfaces with robust server-side
+            architecture. I focus on writing clean, maintainable code and
+            developing solutions that deliver seamless user experiences.
           </p>
 
           <br />
 
           <p>
-            With hands-on experience in frameworks like{" "}
-            <strong>Tailwind CSS</strong> and <strong>Bootstrap</strong>, as well
-            as backend basics with <strong>Node.js</strong> and <strong>APIs</strong>, I strive to deliver visually appealing, functional, and user-focused
-            digital experiences.
+            My technical expertise includes <strong>JavaScript (ES6+)</strong>,
+            <strong> React.js</strong>, <strong>Next.js</strong>,
+            <strong> Node.js</strong>, <strong>Express.js</strong>,
+            <strong> MongoDB</strong>, <strong>HTML5</strong>,
+            <strong> CSS3</strong>, <strong>Tailwind CSS</strong>,
+            <strong> Bootstrap</strong>, <strong>Redux Toolkit</strong>,
+            <strong> Git</strong>, <strong>GitHub</strong>, and
+            <strong> RESTful APIs</strong>. I have experience building
+            responsive user interfaces, developing reusable components,
+            implementing authentication systems, integrating APIs, managing
+            databases, and creating full-stack applications from concept to
+            deployment.
           </p>
 
           <br />
 
           <p>
-            Currently diving deeper into the <strong>MERN stack</strong>, I am
-            building full-stack projects that combine clean UI design with
-            robust backend systems — aiming to create impactful solutions that
-            blend performance with creativity.
+            I am passionate about solving real-world problems through technology
+            and continuously expanding my knowledge of modern web development. I
+            enjoy learning new frameworks, exploring best practices, and
+            building innovative, scalable applications that prioritize
+            performance, accessibility, security, and exceptional user
+            experience.
           </p>
         </motion.div>
       </div>

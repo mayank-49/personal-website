@@ -18,17 +18,17 @@ const projectsData = [
     image: p1,
     techStack: ["HTML", "CSS", "JAVASCRIPT"],
   },
+  // {
+  //   id: "02",
+  //   title: "NEWS APP",
+  //   description:
+  //     "A dynamic and responsive news application developed using React, Bootstrap, and the News API. This project features a clean, modern interface that enables users to browse real-time news updates across multiple categories. Designed with a focus on performance, accessibility, and responsiveness, the application ensures a seamless user experience across devices. The integration with the News API allows for the automatic retrieval and display of current headlines, providing users with up-to-date information in an organized and intuitive layout.",
+  //   link: "https://github.com/mayank-49/NewsApp",
+  //   image: p2,
+  //   techStack: ["REACT.JS", "BOOTSTRAP", "NEWS API"],
+  // },
   {
     id: "02",
-    title: "NEWS APP",
-    description:
-      "A dynamic and responsive news application developed using React, Bootstrap, and the News API. This project features a clean, modern interface that enables users to browse real-time news updates across multiple categories. Designed with a focus on performance, accessibility, and responsiveness, the application ensures a seamless user experience across devices. The integration with the News API allows for the automatic retrieval and display of current headlines, providing users with up-to-date information in an organized and intuitive layout.",
-    link: "https://github.com/mayank-49/NewsApp",
-    image: p2,
-    techStack: ["REACT.JS", "BOOTSTRAP", "NEWS API"],
-  },
-  {
-    id: "03",
     title: "V-TUBE",
     description:
       "VTube is a modern, responsive video streaming application built with React, Tailwind CSS, and Rapid API. It offers a seamless and user-friendly interface for exploring, searching, and watching video content in real time. Users can browse trending videos, view detailed video and channel information, and enjoy a smooth playback experience across all devices. The application is designed with a focus on performance and accessibility, ensuring that users can easily navigate and interact with the platform. VTube is perfect for anyone looking to",
@@ -37,7 +37,7 @@ const projectsData = [
     techStack: ["REACT.JS", "TAILWIND CSS", "RAPID API", "VITE"],
   },
   {
-    id: "04",
+    id: "03",
     title: "QUICK-BITE",
     description:
       "Built a fully responsive food ordering website using React.js, Tailwind CSS, Redux Toolkit, and React Router, offering users a smooth and interactive experience. The application features dynamic menu browsing, category-based filtering, real-time cart management, and seamless navigation across pages. Designed with a modern UI and efficient state management, it ensures fast performance, intuitive usability, and a consistent experience across all device types.",
@@ -46,7 +46,7 @@ const projectsData = [
     techStack: ["REACT.JS", "TAILWIND CSS", "REDUX"],
   },
   {
-    id: "05",
+    id: "04",
     title: "PICTURA-AI",
     description:
       "Developed a text-to-image generation platform enabling users to create AI-generated images from prompts. Implemented secure user authentication for personalized access and usage history. Integrated Razorpay payment gateway for managing subscriptions and transactions seamlessly. Designed a responsive UI with smooth navigation for an enhanced user experience.",
@@ -56,7 +56,7 @@ const projectsData = [
 }
 ,
   {
-    id: "06",
+    id: "05",
     title: "Taskify",
     description:
       "Developed a MERN stack–based task management application that performs full CRUD operations, allowing users to create, update, view, and delete tasks efficiently. Implemented secure login and logout functionality using authentication to ensure personalized user access. Integrated an analytics dashboard to visualize tasks across different categories, helping users track progress and manage workloads effectively. Designed a responsive and user-friendly interface for seamless task management across devices.",
